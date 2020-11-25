@@ -1,0 +1,34 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .checked {
+      color: orange;
+    }
+  </style>
+</head>
+<body>
+  <h1>Me habéis cobrado de más</h1>
+  <div id="rating">
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+  </div>
+  <div id="cliente">
+    <label for="nombreCliente">Cliente:</label>
+    <input type="text" id="nombreCliente" name="nombreCliente" value="José Luis Pérez Caminero" readonly>
+    <label for="nombreCliente">Teléfono Contacto:</label>
+    <input type="text" id="telefonoCliente" name="telefonoCliente" value="548923716" readonly>
+  </div>
+  <div id="reclamacion">
+    <label for="categoriaReclamacion">Categoría:</label>
+    <input type="text" id="categoriaReclamacion" name="categoriaReclamacion" value="Facturación" readonly>
+    <label for="textoReclamacion">Reclamación:</label>
+    <textarea name="textoReclamacion" readonly>En la factura del mes de marzo me habéis cobrado 15€ más de lo que venía pagando hasta ahora y desconozco el motivo.</textarea>
+  </div>
+  <h2>¿Has resuelto la incidencia?</h2>
+  <button type="button" name="resuelta">¡Resuelta!</button>
+  <button type="button" name="noPude">No pude</button>
+  <button type="button" name="bloqueada">Bloqueada</button>
+</body>
