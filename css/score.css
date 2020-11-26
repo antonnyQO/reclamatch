@@ -30,3 +30,8 @@
 .score-footer {
     margin-bottom: 12px;
 }
+
+.score-points-text,
+.score-time-text {
+    text-decoration: underline;
+}
