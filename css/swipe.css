@@ -59,7 +59,7 @@
     margin-top: 30px;
 }
 
-.swipe-card-previous{
+.swipe-card-left-arrow{
     transform: rotateY(180deg);
 }
 

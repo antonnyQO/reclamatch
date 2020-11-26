@@ -15,10 +15,10 @@ fetch(url)
                     <h3 class="swipe-card-category">${data.claims[claim].category}</h3>
                     <div>${data.claims[claim].description}</div>
                     <div class="swipe-card-footer">
-                      <button type="button" name="previous" class="swipe-card-btn">
-                        <img src="images/flecha.png" alt="Anterior" class="reclamatch-icon">
+                      <button type="button" name="previous" class="swipe-card-btn" title="Anterior">
+                        <img src="images/flecha.png" alt="Anterior" class="reclamatch-icon swipe-card-left-arrow">
                       </button>
-                      <button type="button" name="next" class="swipe-card-btn">
+                      <button type="button" name="next" title="Siguiente" class="swipe-card-btn">
                         <img src="images/flecha.png" alt="Siguiente" class="reclamatch-icon">
                       </button>
                     </div>

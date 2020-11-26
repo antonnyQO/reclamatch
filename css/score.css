@@ -19,6 +19,7 @@
 }
 .score-rating-title {
     width: 70%;
+    text-align: left;
 }
 
 .score-result-container {
