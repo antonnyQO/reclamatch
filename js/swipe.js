@@ -2,7 +2,7 @@ const url = 'https://fc7f2diidi.execute-api.eu-west-1.amazonaws.com/dev/claim/li
 fetch(url)
 .then(response=>response.json())
 .then(data=>{
-  let card = document.getElementById('swipe-global-container')
+  let card = document.getElementById('swipe-card-container')
   console.log(data)
   Object.keys(data.claims).forEach(claim => {
     console.log(claim + ' - ' + data.claims[claim].category) // key - value
