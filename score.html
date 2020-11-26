@@ -1,25 +1,41 @@
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/score.css">
+  <link rel="stylesheet" href="css/body.css">
   <style>
     .checked {
       color: orange;
     }
   </style>
 </head>
+
 <body>
-  <h1>¡Enhorabuena, has resuelto la tarea!</h1>
-  <h2>Me habéis cobrado de más</h2>
-  <div id="rating">
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star"></span>
-    <span class="fa fa-star"></span>
+  <div class="score-global-container">
+
+    <h1>¡Enhorabuena, has resuelto la tarea!</h1>
+    <div class="score-rating-container">
+      <h2 class="score-rating-title">Me habéis cobrado de más</h2>
+      <div class="score-rating" id="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+      </div>
+    </div>
+
+    <div class="score-result-container" id="score">
+      <span class="score-time">
+        Tiempo total: 1 hora 27 minutos
+      </span> 
+      <span class="score-time">
+        Puntuación obtenida: 189 pts
+      </span>
+    </div>
+    <div class="score-footer">
+      <a class="btn" href="./ranking.html">Ranking</a>
+      <a class="btn" href="./swipe.html">Otra</a>
+    </div>
+
   </div>
-  <div id="score">
-    Tiempo total: 1 hora 27 minutos
-    Puntuación obtenida: 189 pts
-  </div>
-  <a href="./ranking.html">Ranking</a>
-  <a href="./swipe.html">Otra</a>
 </body>
