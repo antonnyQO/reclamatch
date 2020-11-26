@@ -26,9 +26,6 @@ form {
     width: 80px;
     height: 80px;
 }
-.form-title {
-
-}
 
 .input-user,
 .input-password {
@@ -57,6 +54,10 @@ form {
     font-weight: 500;
     font-size: 1rem;
     background-color: #e60000;
+    cursor: pointer;
+}
+.buttom-form:hover{
+    background-color: #a20909;
 }
 
 

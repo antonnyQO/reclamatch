@@ -16,10 +16,10 @@ fetch(url)
                     <div>${data.claims[claim].description}</div>
                     <div class="swipe-card-footer">
                       <button type="button" name="previous" class="swipe-card-btn">
-                        <img src="images/flecha.png" alt="Anterior" class="swipe-card-previous">
+                        <img src="images/flecha.png" alt="Anterior" class="reclamatch-icon">
                       </button>
                       <button type="button" name="next" class="swipe-card-btn">
-                        <img src="images/flecha.png" alt="Siguiente" class="swipe-card-next">
+                        <img src="images/flecha.png" alt="Siguiente" class="reclamatch-icon">
                       </button>
                     </div>
                   </div>`

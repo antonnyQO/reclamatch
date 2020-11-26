@@ -1,0 +1,33 @@
+.ranking-global-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.ranking-title {
+    text-align: center;
+}
+
+.ranking-container-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ranking-list-item {
+    background-color: white;
+    color: black;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    justify-content: center;
+}
+
+.ranking-point {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+}
