@@ -6,7 +6,7 @@ fetch(url)
   console.log(data)
   Object.keys(data.claims).forEach(claim => {
     console.log(claim + ' - ' + data.claims[claim].category) // key - value
-    var display = claim==0 ? "visibility: visible" : "visibility: hidden"
+    var display = claim==0 ? "display: block" : "display: none"
     var contentCard=`<div id="swipe${data.claims[claim].claimId}" class="swipe-card" style="${display};">
                     <div class="swipe-card-header">
                     <h2 class="swipe-card-title">${data.claims[claim].title}</h2>
