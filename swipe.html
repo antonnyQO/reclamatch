@@ -9,7 +9,7 @@
   </style>
 </head>
 <body>
-  <div class="swipe-global-container">
+  <div id="swipe-global-container" class="swipe-global-container">
     <div class="swipe-header">
       <a href="./ranking.html">
         <img src="images/trofeo.png" alt="Ranking" class="swipe-icon-ranking">
@@ -19,31 +19,10 @@
         <img src="images/tarea.png" alt="Tareas bloqueadas" class="swipe-icon-blocked-task">
       </a>
     </div>
-    <div id="swipe" class="swipe-card">
-      <div class="swipe-card-header">
-        <h2 class="swipe-card-title">Me habéis cobrado de más</h2>
-        <div id="rating" class="swipe-card-rating">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-          <span class="fa fa-star"></span>
-        </div>
-      </div>
-      <h3 class="swipe-card-category">Facturación</h3>
-      <div class="swipe-card-text">En la factura del mes de marzo me habéis cobrado 15€ más de lo que venía pagando hasta ahora y desconozco el motivo.</div>
-      <div class="swipe-card-footer">
-        <button type="button" name="previous" class="swipe-card-btn">
-          <img src="images/flecha.png" alt="Anterior" class="swipe-card-previous">
-        </button>
-        <button type="button" name="next" class="swipe-card-btn">
-          <img src="images/flecha.png" alt="Siguiente" class="swipe-card-next">
-        </button>
-      </div>
-    </div>
+  </div>
     <a href="card.html" name="match" class="swipe-card-btn-match">
       <span>Match</span>
       <img src="images/corazon.png" alt="Match" class="swipe-card-match">
     </a>
-  </div>
+  <script src="./js/swipe.js"></script>
 </body>
