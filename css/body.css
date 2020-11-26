@@ -1,0 +1,8 @@
+body {
+    font-size: 1rem;
+    font-family: "Vodafone",Helvetica,Arial,sans-serif;
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(184,0,0,1) 0%, rgba(233,1,0,0.9332866935836834) 35%);
+    padding: 50px 20px;
+}

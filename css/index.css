@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    background: linear-gradient(0deg, rgba(184,0,0,1) 0%, rgba(233,1,0,0.9332866935836834) 35%);
-}
-
 form {
     margin: 0;
 }
@@ -18,7 +13,7 @@ form {
 .container-form {
     background-color: white;
     padding: 16px;
-    border-radius: 6px;  
+    border-radius: 6px;
 }
 
 .form-logo-container {
