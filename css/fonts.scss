@@ -1,0 +1,162 @@
+// HEADINGS & FONT SIZES
+// ---------------------
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+
+$mva10-font-sizes: (
+    ('mobile', 'h1', 32px, 8, '', ''),
+    ('mobile', 'h2', 28px, 8, '', ''),
+    ('mobile', 'h3', 24px, 6, '', ''),
+    ('mobile', 'h4', 20px, 8, '', ''),
+    ('mobile', 'h5', 18px, 6, '', ''),
+    ('mobile', 'p', 16px, 6, '', ''),
+    // ('mobile', 'span', 16px, 6),
+    ('mobile', 'small', 14px, 4, '', ''),
+    ('tablet', 'h1', 56px, 6, '', ''),
+    ('tablet', 'h2', 40px, 8, '', ''),
+    ('tablet', 'h3', 34px, 6, '', ''),
+    ('tablet', 'h4', 24px, 6, '', ''),
+    ('tablet', 'h5', 20px, 8, '', ''),
+    ('tablet', 'p', 18px, 6, '', ''),
+    //('tablet', 'span', 18px, 6),
+    ('tablet', 'small', 14px, 4, '', ''),
+    ('desktop', 'h1', 64px, 8, '', ''),
+    ('desktop', 'h2', 56px, 6, '', ''),
+    ('desktop', 'h3', 40px, 8, '', ''),
+    ('desktop', 'h4', 28px, 6, '', ''),
+    ('desktop', 'h5', 20px, 8, '', ''),
+    ('desktop', 'p', 18px, 6, '', ''),
+    // ('desktop', 'span', 18px, 6),
+    ('desktop', 'small', 14px, 4, '', ''),
+    // CLASSES
+    ('mobile', 'heading--1', 32px, 8, 'forClass', 400),
+    ('mobile', 'heading--1-lt', 32px, 8, 'forClass', 300),
+    ('mobile', 'heading--2', 28px, 8, 'forClass', 400),
+    ('mobile', 'heading--2-lt', 28px, 8, 'forClass', 300),
+    ('mobile', 'heading--3', 24px, 6, 'forClass', 400),
+    ('mobile', 'heading--3-lt', 24px, 6, 'forClass', 300),
+    ('mobile', 'heading--4', 20px, 8, 'forClass', 400),
+    ('mobile', 'heading--4-lt', 20px, 8, 'forClass', 300),
+    ('mobile', 'heading--5', 18px, 6, 'forClass', 400),
+    ('mobile', 'heading--5-lt', 18px, 6, 'forClass', 300),
+    ('tablet', 'heading--1', 56px, 6, 'forClass', 400),
+    ('tablet', 'heading--1-lt', 56px, 6, 'forClass', 300),
+    ('tablet', 'heading--2', 40px, 8, 'forClass', 400),
+    ('tablet', 'heading--2-lt', 40px, 8, 'forClass', 300),
+    ('tablet', 'heading--3', 34px, 6, 'forClass', 400),
+    ('tablet', 'heading--3-lt', 34px, 6, 'forClass', 300),
+    ('tablet', 'heading--4', 24px, 6, 'forClass', 400),
+    ('tablet', 'heading--4-lt', 24px, 6, 'forClass', 300),
+    ('tablet', 'heading--5', 20px, 8, 'forClass', 400),
+    ('tablet', 'heading--5-lt', 20px, 8, 'forClass', 300),
+    ('desktop', 'heading--1', 64px, 8, 'forClass', 400),
+    ('desktop', 'heading--1-lt', 64px, 8, 'forClass', 300),
+    ('desktop', 'heading--2', 56px, 6, 'forClass', 400),
+    ('desktop', 'heading--2-lt', 56px, 6, 'forClass', 300),
+    ('desktop', 'heading--3', 40px, 8, 'forClass', 400),
+    ('desktop', 'heading--3-lt', 40px, 8, 'forClass', 300),
+    ('desktop', 'heading--4', 28px, 6, 'forClass', 400),
+    ('desktop', 'heading--4-lt', 28px, 6, 'forClass', 300),
+    ('desktop', 'heading--5', 20px, 8, 'forClass', 400),
+    ('desktop', 'heading--5-lt', 20px, 8, 'forClass', 300),
+    // UTIL BODY
+    ('mobile', 'body', 16px, 6, '', '', ''),
+    ('tablet', 'body', 18px, 6, '', '', ''),
+    ('desktop', 'body', 18px, 6, '', '', ''),
+    // UTIL FOOTNOTE
+    ('mobile', 'footnote', 14px, 4, '', '', ''),
+    ('tablet', 'footnote', 14px, 4, '', '', ''),
+    ('desktop', 'footnote', 14px, 4, '', '', '')
+);
+
+// FONT WIDTHS
+// -----------
+/*
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-regular: 500;
+$font-weight-bold: 700;
+*/
+
+// FONTS PATH
+// -----------
+$font-path: 'https://www.vodafone.es/c/statics/fonts/';
+$font-local-path: '../fonts/' !default;
+
+// FONT FAMILY
+// -----------
+
+// private members
+$font-family-serif: Georgia, 'Times New Roman', Times, serif;
+$font-family-monospace: 'Fira Mono', Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+$_vodafone-font-name: 'Vodafone';
+$font-family-vodafone: $_vodafone-font-name, Helvetica, Arial, sans-serif;
+
+$font-family-base: $font-family-vodafone !default;
+
+// Legacy
+$font-family-vodafone-light: 'VodafoneLight', Helvetica, Arial, sans-serif;
+$_font-family-vodafone-light-type: 'VodafoneLight';
+
+$font-family-vodafone-regular: 'VodafoneRegular', Helvetica, Arial, sans-serif;
+$_font-family-vodafone-regular-type: 'VodafoneRegular';
+
+$font-family-vodafone-regular-bold: 'VodafoneRegularBold', Helvetica, Arial,
+    sans-serif;
+$_font-family-vodafone-regular-bold-type: 'VodafoneRegularBold';
+// end legacy
+
+$font-face-list: (
+    (
+        $_vodafone-font-name,
+        'Vodafone Lt Regular',
+        $font-path + 'vodafone-light',
+        $font-local-path + 'vodafone/vodafone-light',
+        'normal',
+        300
+    ),
+    (
+        $_vodafone-font-name,
+        'Vodafone Rg Regular',
+        $font-path + 'vodafone-regular',
+        $font-local-path + 'vodafone/vodafone-regular',
+        'normal',
+        400
+    ),
+    (
+        $_vodafone-font-name,
+        'Vodafone Rg Bold',
+        $font-path + 'vodafone-bold',
+        $font-local-path + 'vodafone/vodafone-bold',
+        'normal',
+        700
+    ),
+    // Legacy
+    (
+        $_font-family-vodafone-light-type,
+        'Vodafone Lt Regular',
+        $font-path + 'vodafone-light',
+        $font-local-path + 'vodafone/vodafone-light',
+        'normal',
+        400
+    ),
+    (
+        $_font-family-vodafone-regular-type,
+        'Vodafone Rg Regular',
+        $font-path + 'vodafone-regular',
+        $font-local-path + 'vodafone/vodafone-regular',
+        'normal',
+        400
+    ),
+    (
+        $_font-family-vodafone-regular-bold-type,
+        'Vodafone Rg Bold',
+        $font-path + 'vodafone-bold',
+        $font-local-path + 'vodafone/vodafone-bold',
+        'normal',
+        400
+    )
+    // End legacy
+);

@@ -15,10 +15,13 @@ fetch(url)
                     <h3 class="swipe-card-category">${data.claims[claim].category}</h3>
                     <div>${data.claims[claim].description}</div>
                     <div class="swipe-card-footer">
-                      <button type="button" name="previous">Previous</button>
-                      <button type="button" name="next">Next</button>
+                      <button type="button" name="previous" class="swipe-card-btn">
+                        <img src="images/flecha.png" alt="Anterior" class="swipe-card-previous">
+                      </button>
+                      <button type="button" name="next" class="swipe-card-btn">
+                        <img src="images/flecha.png" alt="Siguiente" class="swipe-card-next">
+                      </button>
                     </div>
-                  <button type="button" name="match">Match</button>
                   </div>`
       card.insertAdjacentHTML('beforeend', contentCard);
   })
