@@ -9,6 +9,9 @@
 .swipe-card-container {
     margin-top: 20px;
 }
+.swipe-match-btn {
+    border: none;
+}
 
 .swipe-header-link-background {
     width: 35px;
