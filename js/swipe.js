@@ -14,6 +14,11 @@ function swipper(mostrar,quitar){
   localStorage.setItem("claimID", mostrar);
   console.log(localStorage.getItem("claimID"))
 }
+
+function goTo() {
+  location.href = "card.html";
+}
+
 const url = 'https://fc7f2diidi.execute-api.eu-west-1.amazonaws.com/dev/claim/list'
 fetch(url)
 .then(response=>response.json())
