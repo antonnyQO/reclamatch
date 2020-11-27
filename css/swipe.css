@@ -10,6 +10,16 @@
     margin-top: 20px;
 }
 
+.swipe-header-link-background {
+    width: 35px;
+    height: 35px;
+    background-color: #3f3f3f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .swipe-header {
     display: flex;
     width: 100%;
