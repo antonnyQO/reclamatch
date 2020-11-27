@@ -10,51 +10,8 @@
   </style>
 </head>
 <body>
-  <div class="card-global-container">
-    <div class="card-header">
-      <h1 class="card-title">Me habéis cobrado de más</h1>
-      <div id="rating" class="card-rating">
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-      </div>
-    </div>
-
-    <div id="cliente" class="card-info-client">
-      <div class="card-info-client-name">
-        <label for="nombreCliente">Cliente:</label>
-        <input class="card-input-name" type="text" id="nombreCliente" name="nombreCliente" value="José Luis Pérez Caminero" readonly>
-      </div>
-      <div class="card-info-client-phone">
-        <label for="nombreCliente">Teléfono Contacto:</label>
-        <input class="card-input-phone" type="text" id="telefonoCliente" name="telefonoCliente" value="548923716" readonly>
-      </div>
-      <div class="card-info-client-dni">
-        <label for="dniCliente">DNI:</label>
-        <input class="card-input-dni" type="text" id="dniCliente" name="dniCliente" value="80956471G" readonly>
-      </div>
-      <div class="card-info-client-contract">
-        <label for="numContrato">Número Contrato:</label>
-        <input class="card-input-contract" type="text" id="numContrato" name="numContrato" value="8734809234682" readonly>
-      </div>
-    </div>
-    <div id="reclamacion" class="card-info-claim">
-      <div class="card-info-claim-category">
-        <label for="categoriaEspecialidad">Categoría:</label>
-        <select class="card-select-category" name="categoriaEspecialidad" id="categoriaEspecialidad" readonly>
-          <option value="facturacion" selected>Facturación</option>
-          <option value="adsl">ADSL</option>
-          <option value="tarifas">Tarifas</option>
-          <option value="client_service">Client Service</option>
-          <option value="consumidores">Consumidores</option>
-          <option value="other">Otras</option>
-        </select>
-      </div>
-      <label for="textoReclamacion">Reclamación:</label>
-      <textarea class="card-text-claim" name="textoReclamacion" readonly>En la factura del mes de marzo me habéis cobrado 15€ más de lo que venía pagando hasta ahora y desconozco el motivo.</textarea>
-    </div>
+  <div id="card-global-container" class="card-global-container">
+    <div id="card-data-container" class="card-data-container"></div>
     <div class="card-footer">
       <h2>¿Has resuelto la incidencia?</h2>
       <div class="card-footer-buttons">
@@ -64,4 +21,5 @@
       </div>
     </div>
   </div>
+  <script src="./js/card.js"></script>
 </body>
